@@ -1,0 +1,74 @@
+body {
+    max-width: 458px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #d5c6e0;
+}
+h1 {
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+    color: #967aa1;
+}
+
+h2 {
+    font-size: 20px;
+    color: #967aa1;
+}
+#textInput {
+    width: 85%;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid #967aa1;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ae98b6;
+    color: white;
+}
+
+#textInput:focus {
+    outline: none;
+}
+
+#lettersDiv {
+    background-color: #ae98b6;
+    width: 85%;
+    text-align: center;
+    margin: 15px 0 30px 0;
+    color: white;
+    border: 1px solid #967aa1;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#wordsDiv {
+    background-color: #ae98b6;
+    width: 85%;
+    text-align: center;
+    margin: 15px 0 30px 0;
+    color: white;
+    border: 1px solid #967aa1;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#countButton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #967aa1;
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#countButton:hover {
+    cursor: pointer;
+    background-color: rgba(150, 122, 161, 0.8);
+}
